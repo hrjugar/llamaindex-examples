@@ -18,7 +18,8 @@ import {
 } from "llamaindex";
 
 Settings.llm = new Ollama({
-  model: "llama3.1"
+  model: "llama3.1",
+  config: {}
 });
 
 Settings.embedModel = new HuggingFaceEmbedding({

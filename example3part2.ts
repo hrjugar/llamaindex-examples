@@ -48,7 +48,7 @@ async function main() {
     ...abramovDocuments,
     ...resumeDocuments
   ]);
-
+  
   // const index = await VectorStoreIndex.init({
   //   storageContext
   // });
